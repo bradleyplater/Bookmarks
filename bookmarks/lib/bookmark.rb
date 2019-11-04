@@ -1,9 +1,6 @@
 class Bookmark
-  def initialize 
-    @bookmarks = ["www.google.com","www.facebook.com","www.twitter.com"]
-  end
 
-  def all 
-    @bookmarks
+  def self.all 
+    ["www.google.com","www.facebook.com","www.twitter.com"]
   end
 end
